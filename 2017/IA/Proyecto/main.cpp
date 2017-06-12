@@ -344,36 +344,55 @@ void ArbolABB::busquedaIterativa(int dato){
 	Nodo *Aux;
 	pila Pila;
 	int encontrado = 0;
+	int nivel = 1;
+	float contarNivel = 0;
 	
 	
-	Pila.Push(raiz);
-	printf("Se agrega la raiz del arbol a la pila: %i\n", raiz->dato);
-		
-	while(encontrado==0 && (Pila.ultimo)){
-		Aux =Pila.Pop();
-		
-		printf("\nSe revisa: %i\n", Aux->dato);
-		
-		if(Aux->dato == dato){
-			encontrado = 1;
-			printf("El dato %i ha sido encontrado.", dato);
-		}else{
-			if(!Vacio(Aux->derecho)){
-				printf("Se agrega el hijo derecho de %i a la pila: %i\n", Aux->dato,  Aux->derecho->dato);
-				Pila.Push(Aux->derecho);
-			}
-	
-			if(!Vacio(Aux->izquierdo)){
-				printf("Se agrega el hijo izquierdo de %i a la pila: %i\n", Aux->dato, Aux->izquierdo->dato);
-				Pila.Push(Aux->izquierdo);
-			}
-		}	
-	}
+  	
+
+	do{
+		Pila.Push(raiz);
+  	
+		printf("\n\nInteration:  %i\n", nivel);
+		printf("Se agrega la raiz del arbol a la pila: %i\n", raiz->dato);
+		while((encontrado==0 && (Pila.ultimo)) && nivel > contarNivel){
+			Aux =Pila.Pop();
 			
+			printf("\nSe revisa: %i\n", Aux->dato);
+			
+			if(Aux->dato == dato){
+				encontrado = 1;
+				printf("El dato %i ha sido encontrado.", dato);
+			}else{
+				if(!Vacio(Aux->derecho) ){
+					printf("Se agrega el hijo derecho de %i a la pila: %i\n", Aux->dato,  Aux->derecho->dato);
+					Pila.Push(Aux->derecho);
+				}
+		
+				if(!Vacio(Aux->izquierdo)){
+					printf("Se agrega el hijo izquierdo de %i a la pila: %i\n", Aux->dato, Aux->izquierdo->dato);
+					Pila.Push(Aux->izquierdo);
+				}
+				
+				
+				if(!Vacio(Aux->derecho) || !Vacio(Aux->izquierdo)){
+					contarNivel++;	
+				}
+			}
+			
+	
+			
+		}
+		contarNivel = 0;
+		nivel++;
+	}while(encontrado==0 && (Pila.ultimo)); 
+	
 	if(encontrado ==0){
 		printf("Dato %i no encontrado", dato);
 	}
+		
 }
+
 
 
 
@@ -417,10 +436,10 @@ int main()
 
    // Veamos algunos parámetros
    cout << "N nodos: " << ArbolInt.NumeroNodos() << endl;
-   cout << "Altura de 1 " << ArbolInt.Altura(1) << endl;
+   cout << "Altura de 1 " << ArbolInt.Altura(75) << endl;
    cout << "Altura de 10 " << ArbolInt.Altura(10) << endl;
    cout << "Altura de arbol " << ArbolInt.AlturaArbol() << endl;
-   ArbolInt.busquedaIterativa(96);
+   ArbolInt.busquedaIterativa(95);
    
 
    cin.get();
