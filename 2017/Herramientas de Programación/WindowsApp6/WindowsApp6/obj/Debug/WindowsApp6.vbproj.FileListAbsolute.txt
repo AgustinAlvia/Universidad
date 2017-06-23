@@ -1,0 +1,11 @@
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp6\WindowsApp6\bin\Debug\WindowsApp6.exe.config
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp6\WindowsApp6\bin\Debug\WindowsApp6.exe
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp6\WindowsApp6\bin\Debug\WindowsApp6.pdb
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp6\WindowsApp6\bin\Debug\WindowsApp6.xml
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp6\WindowsApp6\obj\Debug\WindowsApp6.Form1.resources
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp6\WindowsApp6\obj\Debug\WindowsApp6.Resources.resources
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp6\WindowsApp6\obj\Debug\WindowsApp6.vbproj.GenerateResource.Cache
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp6\WindowsApp6\obj\Debug\WindowsApp6.exe
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp6\WindowsApp6\obj\Debug\WindowsApp6.xml
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp6\WindowsApp6\obj\Debug\WindowsApp6.pdb
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp6\WindowsApp6\obj\Debug\WindowsApp6.vbprojResolveAssemblyReference.cache
