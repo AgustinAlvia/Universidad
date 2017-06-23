@@ -1,0 +1,11 @@
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.exe.config
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.exe
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.pdb
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.xml
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.vbprojResolveAssemblyReference.cache
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.Form1.resources
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.Resources.resources
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.vbproj.GenerateResource.Cache
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.exe
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.xml
+c:\users\el_au\documents\visual studio 2017\Projects\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.pdb
