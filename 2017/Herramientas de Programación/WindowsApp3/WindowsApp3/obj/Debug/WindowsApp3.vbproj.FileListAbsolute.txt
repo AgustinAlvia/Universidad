@@ -1,0 +1,11 @@
+c:\Users\el_au\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\bin\Debug\WindowsApp3.exe.config
+c:\Users\el_au\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\bin\Debug\WindowsApp3.exe
+c:\Users\el_au\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\bin\Debug\WindowsApp3.pdb
+c:\Users\el_au\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\bin\Debug\WindowsApp3.xml
+c:\Users\el_au\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.vbprojResolveAssemblyReference.cache
+c:\Users\el_au\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.Form1.resources
+c:\Users\el_au\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.Resources.resources
+c:\Users\el_au\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.vbproj.GenerateResource.Cache
+c:\Users\el_au\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.exe
+c:\Users\el_au\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.xml
+c:\Users\el_au\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.pdb
