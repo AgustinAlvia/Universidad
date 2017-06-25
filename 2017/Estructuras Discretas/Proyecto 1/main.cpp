@@ -1,19 +1,22 @@
 #include <iostream>
+#include <windows.h>
 
 	//conjunto de notas
 	char  notas[12][2] = {{'C', '\0'}, {'C', '#'}, {'D', '\0'}, {'D', '#'}, {'E', '\0'},{'F', '\0'},{'F', '#'}, {'G'}, {'G', '#'},{'A', '\0'},{'A', '#'},{'B', '\0'}};
-    
+	int notaSonido[]={1046, 1109, 1175, 1244, 1328, 1397,1480,1568,1661,1760,1865,1975,2093,2217,2349,2489,2637,2794,2960,3136,3322,3520,3729,3951};
+
 	//sucesiones
 	int escalaMayor[] = {0, 2, 2, 1, 2, 2, 2, 1};
-    int escalaPentatonica[] = {0, 2, 3, 2, 2, 3};
+    int escalaPentatonica[] = {0, 2, 2, 3, 2, 3};
     int escalaBlues[] =  {0, 2, 1, 1, 3, 2, 3};
-    int escalaMenor[] = {0, 2, 1, 2, 2, 1, 2};
+    int escalaMenor[] = {0, 2, 1, 2, 2, 1, 2, 2};
 
 
 	void imprimirEscala(int notaBase, int  *escala, int cantidadDeNotas){
 		int i, sucesion = notaBase;
     	for(i = 0; i < cantidadDeNotas ; i++){
     		sucesion = (sucesion + escala[i])%12;
+    		Beep(notaSonido[sucesion], 500);
     		printf("%c%c ", notas[sucesion][0],notas[sucesion][1]);
 		}
     	
