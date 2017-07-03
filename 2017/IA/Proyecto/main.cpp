@@ -13,6 +13,7 @@ class Nodo {
         dato(dat), izquierdo(izq), derecho(der) {}
       // Miembros:
       int dato;
+      int nivel;
       Nodo *izquierdo;
       Nodo *derecho;
 };
